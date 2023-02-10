@@ -45,7 +45,7 @@ public final class AreaCircle {
             // Calculate the area
             final double area = Math.PI * Math.pow(radDouble, 2);
 
-            // Display the volume, rounded to 2 decimal places
+            // Display the area, rounded to 2 decimal places
             System.out.print("The area of a circle with radius, ");
             System.out.print(radString + "cm, is ");
             System.out.format("%.2f", area);
